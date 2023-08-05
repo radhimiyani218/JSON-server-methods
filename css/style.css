@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: #99e7e9;
+    height: 200px;
+    margin-bottom: 200px;
+    /* margin-top: 20px; */
+
+}
+.book{
+    width: 195px;
+    height:305px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    margin: 0px 20px;
+    margin-top: 60px;  
+}
+.imgeses{
+    width: 200px;
+    height: 200px;
+
+}
+#output {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* gap: 20px; */
+    /* margin-top: 20px; */
+}
+
+#form {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+}
+input{
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    padding: 5px 20px;
+    border: none;
+    border-bottom: 2px solid black;    
+}
+input::placeholder{
+    color: rgb(93, 92, 92);
+    font-size: 20px;
+}
+
+h2,h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="url"],
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 10px;
+    transition: border-color 0.3s ease;
+}
+
+button{
+    text-align: center;
+    align-items: center;
+    padding: 10px 40px;
+    margin:5px 20px;
+    background-color: #06a7a9;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
